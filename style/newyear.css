@@ -118,10 +118,12 @@ text-transform: capitalize;
 }
 .join{
     align-items: center;
-    
+    justify-content: space-around;
     width: 1320px;
 height: 482px;
-flex-shrink: 0;
+padding: 30px 30px 0px 100px;
+
+background-color: rgb(255, 210, 193);
 }
 .place-date-time{
     display: flex;
@@ -173,6 +175,7 @@ line-height: 32px; /* 160% */
 .best-gift{
 margin: left 0;
 margin-right: 100px;
+padding: 30px 30px 0px 100px;
 }
 .gift-pics{
     display: flex;
@@ -184,14 +187,124 @@ margin-right: 100px;
 }
 .column{
     margin: 10px 10px 10px 10px;
+    display: flex;
+    
 }
 .sub-img{
     width: 150px;
 height: 150px;
-
 display: center;
-margin-top: 80px;
-margin-bottom: 385px;
 margin-left: 585px;
 margin-right: 585px;
+}
+.subscribe-tittle{
+    text-align:center;
+    gap: none;
+    
+}
+.subscribe-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.newsletter{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.subscribe{
+    display:center;
+    padding: 30px 30px 0px 100px;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+
+}
+.btn-sub{
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+}
+.email{
+    width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+}
+    
+.foot-main{
+    
+
+background: #070211;
+padding:160px 270px;
+justify-content: space-around;
+}
+.address{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+display: flex;
+}
+.number{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px; /* 166.667% */
+
+}
+.website{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+   
+}
+.foot-right , .foot-left{
+    display: flex;
+    justify-content: space-between;
+}
+.img-icon{
+    justify-content: space-around;
+    display: flex;
+    background: #070211;
+    gap: 0px;
+}
+.l-foot-left{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.r-foot-right{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.last-foot-left{
+    margin-top: 140px;
+    justify-content: space-around;
+    display: flex;
 }
