@@ -116,17 +116,142 @@ line-height: 56px; /* 175% */
 text-transform: capitalize;
     
 }
-.join{
-    align-items: center;
-    justify-content: space-around;
+.circle-background{
+    background-image:url(../B9A1-New-Year-New-Mission-main/resources/Ellipse\ 1.png) ;
+    width: 364.844px;
+height: 364.844px;
+display: center;
+margin-left: 550px;
+margin-top: 100px;
+}
+.best-offer{
+    color: #F00;
+
+font-family: Inter;
+
+font-style: normal;
+
+line-height: normal;
+
+}
+.comming-soon{
+    color: #070211;
+font-family: Merriweather;
+
+font-style: normal;
+
+line-height: normal;
+text-transform: capitalize;
+
+}
+.circle-para-one{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+
+font-style: normal;
+
+line-height: 32px; /* 160% */
+
+
+}
+.year{
+    color: #F00;
+    font-family: Inter;
+    
+    font-style: normal;
+    
+    line-height: normal;
+}
+.year-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    
+    font-style: normal;
+
+    line-height: 32px; /* 160% */
+}
+.tow-column-circle-part{
+    display: flex;
+    margin-top: -350px;
+    justify-content: space-between;
+
+}
+.first-part-circle{
+    margin-right: 90px;
+  
+}
+
+
+.functional{
+    color: #070211;
+    font-family: Inter;
+    font-style: normal;
+}
+.sell{
+    color: #070211;
+
+}
+.holiday{
+    color: #F00;
+text-align: center;
+
+}
+.hoiday-paragraph{
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+}
+.holiday-sale{
+    
+    text-align: center;
+    padding: 200px;
+    margin-bottom: 350px;
+}
+.holiday-img{
+    background-image: url(../B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png);
     width: 1320px;
-height: 482px;
-padding: 30px 30px 0px 100px;
+height: 229px;
+display: center;
+margin-left: 70px;
+margin-right: 50px;
+border-radius: 16px 0px 16px 16px;
+background: #F00;
+}
+
+.girl-pic{
+    float: right;
+    margin-top: -662px;
+    margin-right: 106px;
+}
+.gift-box-pic{
+    float: left;
+    
+    margin-top:-662px ;
+    width: 4.372px;
+height: 70.789px;
+flex-shrink: 0;
+position: relative;
+}
+.discount-pic{
+    float: right;
+    position: relative;
+    margin-right: 406px;
+    margin-top: -662px;
+}
+.holiday-sale-offer-and-img{
+    margin-bottom: 70px;
+    
+}
+.join{
+   text-align: center;
+    justify-content: space-around;
+    
+
 
 background-color: rgb(255, 210, 193);
+margin: 0%;
 }
 .place-date-time{
-    display: flex;
+    text-align: center;
     color: #070211;
 
 font-size: 32px;
@@ -134,6 +259,13 @@ font-size: 32px;
 font-weight: 600;
 line-height: 56px;
 text-transform: capitalize;
+
+
+}
+.join-place-decoration{
+    text-align: center;
+    padding: 100px 300px;
+   
 }
 .btn-join-now{
    
@@ -143,8 +275,11 @@ text-transform: capitalize;
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    padding: 15px 35px;
-    align-items: center;
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
 }
 .best-gifts{
     color: #F00;
@@ -179,16 +314,26 @@ padding: 30px 30px 0px 100px;
 }
 .gift-pics{
     display: flex;
-    padding: 25px;
+    padding: 5px;
     justify-content: center;
     width: auto;
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
     
 }
 .column{
-    margin: 10px 10px 10px 10px;
+    margin: 7px 7px 7px 7px;
+    padding: 10px;
     display: flex;
     
+}
+/*  
+.column2{
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+/* } */
+#best-portfolio-paragraph{
+    padding: 10px;
 }
 .sub-img{
     width: 150px;
@@ -223,9 +368,15 @@ text-transform: capitalize;
 }
 .subscribe{
     display:center;
-    padding: 30px 30px 0px 100px;
+    
     border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
+
+margin: 50px 50px;
+    padding: 100px 100px;
+    background-position: center;
+ 
+
 
 }
 .btn-sub{
@@ -242,7 +393,15 @@ flex-shrink: 0;
 border-radius: 50px;
 background: #FFF;
 }
-    
+    /* .subscribe-part-deco{ 
+        
+        align-items: center;
+        
+        top: 50%;
+        left: 50%;
+        align-items: center;
+        justify-content: space-between;
+    /* } */
 .foot-main{
     
 
