@@ -135,7 +135,7 @@ text-transform: capitalize;
     background-image:url(../B9A1-New-Year-New-Mission-main/resources/Ellipse\ 1.png) ;
     width: 364.844px;
 height: 364.844px;
-display: center;
+
 margin-left: 550px;
 margin-top: 100px;
 
@@ -144,9 +144,10 @@ margin-top: 100px;
 /* border: 15px red; */
 /* border-radius: 25px; */
   border: 12px solid red;
-   padding: 5px; 
+   padding: 12px; 
  /* background: no-repeat; */
- /* background-image: ; */
+ background-repeat: no-repeat;
+ 
  background-position: center center;
 
 }
