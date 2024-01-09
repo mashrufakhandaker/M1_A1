@@ -337,6 +337,7 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+
 }
 .portfolio{
     color: #070211;
@@ -354,12 +355,12 @@ font-family: Inter;
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; /* 160% */
+line-height: 30px; /* 160% */
 }
 .best-gift{
 margin: left 0;
-margin-right: 100px;
-padding: 30px 30px 0px 100px;
+margin-left: 80px;
+/* padding: 30px 30px 0px 100px; */
 }
 .gift-pics{
     display: flex;
