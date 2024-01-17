@@ -1,0 +1,928 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* common contents */
+.btn-primary{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+   
+border-radius: 8px;
+background: #FF5400;
+ }
+
+
+
+
+/* nav contant */
+button ,.ipt3{
+    cursor: pointer;
+}
+
+
+.header-section{
+    /* border: 2px solid #FF5400; */
+    display: flex;
+    margin-left:135px ;
+    margin-right:135px ;
+}
+.nav-container{
+    /* border: 2px solid orange; */
+    height: 146px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    
+}
+.nav-container img{
+    /* width: 48px; */
+    width: 48px;
+height: 56.008px;
+/* flex-shrink: 0; */
+
+
+}
+.travel{
+    
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.dream{
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.input-field-container{
+    display: flex;
+}
+
+.nav-item-container{
+    width: 50%;
+    /* border: 2px solid orange; */
+    display: flex;
+justify-content: space-between;
+align-items: center;
+
+margin-left: 36px;
+padding-left: 59px;
+}
+.d1{
+    margin-left: 16px;
+}
+
+.a1{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none
+}
+
+.a2{
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    text-decoration: none
+}
+/* navbar ends */
+
+
+
+/* banner starts */
+ /* banner     */
+
+ .E {
+    background-image:url(../B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:135px ;
+    margin-right:135px ;
+    /* margin-left:135px ; */
+    /* margin-right:235px ; */
+}
+
+/* .Explore-div {
+    width: 100%;
+    
+} */
+
+.E-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.e1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px;
+}
+
+.E p {
+    width: 676px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.input-content{
+    display: flex;
+    justify-content: center;
+}
+.input-field {
+    display: flex;
+    gap: 24px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.i1{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+.i2{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+.i3{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+.i4 {
+    color: rgba(19, 19, 24, 0.50);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+}
+
+.i1 {
+    padding: 1rem 0px 1rem 15px;
+    margin: 0px;
+}
+
+.i2 {
+    padding: 1rem 113px 1rem 15px;
+}
+
+.i3 {
+    padding: 1rem 74px 1rem 15px;
+}
+
+.i4 {
+    padding: 1rem 34px 1rem 35px;
+    background: #FF5400;
+    color: #FFF;
+    font-weight: 700;
+}
+/* main starts */
+/* our popular tours */
+.tours-container{
+    display: flex;
+    padding-top: 200px;
+}
+.tours-content{
+    margin-left: 165px;
+    margin-right: 165px;
+}
+.tours-tittle{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: start;
+}
+.tours-description{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.tours-img-container{
+    width: 640px;
+height: 550px;
+flex-shrink: 0;
+margin-right: 30px;
+/* gap: 30px; */
+}
+.tours-container li{
+    text-align: start;
+    margin-left: -25px;
+}
+
+/* book room part starts extra part */
+.roombook {
+    margin: 50px 0px;
+    /* display: flex; */
+    margin-left:135px ;
+    margin-right:135px ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.room-container {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.room-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.room-content h3 {
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.room-content p {
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+ .ir1,.ir2 {
+    border-radius: 8px;
+    font-family: 'Mulish';
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 13rem 16px 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.room-content .ir3 {
+    border-radius: 8px;
+    color: #FFF;
+    font-family: 'Mulish';
+    background: #FF5400;
+    padding: 16px 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+
+.room-img {
+    position: relative;
+   /* padding-left: -900px; */
+   margin-top: 30px;
+}
+/* book room part ends */
+/* choose your destination  part starts  */
+.choose-your-destination{
+    text-align: center;
+}
+.choose-your-destination-tittle{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.choose-your-destination-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+
+}
+.tours-img-container{
+    /* display: flex; */
+        align-items: center;
+        gap: 30px;
+        /* justify-content: space-between; */
+         /* margin-left: 165px; 
+         margin-right: 170px; */
+    }
+    .choose-img-container-1{
+        display: flex;
+        width: 100%;
+        margin-left: 135px;
+        gap: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    margin-left: 100px; */
+    /* width: 573px;
+    height: 300px;
+    flex-shrink: 0; */
+    }
+    .choose-img-container-2{
+        display: flex;
+        width: 100%;
+        margin-left: 135px;
+        margin-right: 150px;
+        gap: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        /* display: grid;
+        grid-template-columns: repeat(3,1fr);
+    gap: 1.5rem;
+    margin-left: 100px; */
+    }
+    .choose-img-container-3{
+        display: flex;
+        width: 100%;
+        margin-left: 135px;
+        margin-right: 150px;
+        gap: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+        /* display: grid;
+        grid-template-columns:repeat(2,1fr);
+    gap: 1.5rem;
+    margin-left: 100px; */
+    /* width: auto; */
+    }
+
+
+    /* why choose us part starts */
+    /* why choose us */
+.why-choose-us{
+    text-align: center;
+}
+.why-choose-us-tittle{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.why-choose-us-description{
+    color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+
+
+
+.choose-us{
+    /* align-items: center; */
+    margin: 170px;
+    margin-top: 500px;
+}
+.cart-starts{
+    color: #131318;
+/* text-align: center; */
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.cart-titte{
+ 
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+
+}
+.choose-us-cart-container-1{
+ display: flex; 
+
+ /* align-items: center; */
+ justify-content: space-around;
+ font-size: 12px;
+ /* Stransform: rotate(90deg); */
+ padding: 30px;
+ /* margin-left: -100px; */
+/* align-items: center; */
+ /* justify-content: space-around;
+ justify-content: space-between;
+ gap: 30px; */
+/* font-size: 1.25rem;  */
+/* Stransform: rotate(90deg); */
+/* padding: 30px;
+display: grid;
+    grid-template-columns: repeat(2, 1fr);
+gap: 1.5rem; */
+
+}
+.choose-us-cart-container-2{
+    /* grid-template-columns: 1fr;
+   text-align: center; */
+    /* display: grid;
+    align-items: center; */
+
+
+
+/* align-items: center;
+ margin-left: 300px;  */
+ display: flex; 
+    /* align-items: center; */
+    justify-content: space-around;
+    font-size: 0.25rem;
+    /* Stransform: rotate(90deg); */
+    padding: 30px;
+
+}
+
+    .cart1{
+        /* justify-items: center; */
+        /* justify-content: space-around; */
+       
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+        width: 573px;
+        height: 284px;
+      
+         /* align-items: center; */
+         /* text-align: center; */
+          padding-top: 30px; 
+          padding-left: 30px;
+          margin-left: -70px;
+          margin-right: 100px;
+         
+         
+}
+.cart2{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding-top: 30px; 
+padding-left: 30px;
+width: 573px;
+        height: 284px;
+        /* margin-right: -100px;
+        justify-content: space-between; */
+      
+}
+
+
+.cart3{
+    border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding-top: 30px; 
+padding-left: 30px;
+width: 573px;
+        height: 284px;
+}
+
+/* newslwtter part starts */
+.Newsletter {
+    margin: 50px 0px;
+    /* display: flex; */
+    margin-left:135px ;
+    margin-right:135px ;
+    
+}
+
+.News-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.News-content {
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.News-content h3 {
+    color: #131318;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.News-content p {
+    color: #5A5A5D;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+ .ip1,.ip2 {
+    border-radius: 8px;
+    font-family: 'Mulish';
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 13rem 16px 20px;
+    border: none;
+    margin-top: 10px;
+}
+
+.News-content .ip3 {
+    border-radius: 8px;
+    color: #FFF;
+    font-family: 'Mulish';
+    background: #FF5400;
+    padding: 16px 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    border: none;
+    margin-top: 10px;
+}
+
+
+
+
+.Newsletter-img {
+    position: relative;
+}
+
+.p {
+    background-color: #FF5400;
+    border-radius: 16px;
+    width: 324px;
+    height: 120px;
+    text-align: center;
+    position: absolute;
+    right: 5px;
+    bottom: 50px;
+    transform: rotate(-19.628deg);
+}
+
+
+
+.p p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    padding: 0px;
+}
+
+#ftp {
+    padding: 10px;
+}
+
+#stp {
+    font-weight: 800;
+    font-size: 32px;
+    padding: 0px;
+    margin: 5px;
+}
+
+/* footer part starts */
+.footer-div1{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    /* margin-left: 550px; */
+    justify-content: center;
+}
+.f11{
+    width: 50px;
+    padding-top: 60px;
+}
+.footer-img {
+    display: flex;
+    justify-content: center;
+    /* flex-direction:  column; */
+    /* display: flex;
+    width: 194.322px;
+height: 40px;
+flex-shrink: 0;
+align-items: center;
+flex-direction: row;
+  /* justify-content: space-around; */
+ 
+/* margin-left: 650px;  
+justify-content: center;
+padding-top: 100px; */
+}
+
+ .footer-hr{
+    margin-top: 100px;
+    /* margin-left: 100px; */
+  
+} 
+
+.fp{
+   text-align: center;
+}
+.footer-main{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1440px;
+height: 502px;
+flex-shrink: 0;
+}
+/* footer ends */
+
+
+
+
+
+
+.f1{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+ @media only screen and (max-width: 600px){
+    body {
+        margin: 0% 0%;
+    }
+
+    /* header */
+    .header-section img{
+        width: 42px;
+height: 33.516px;
+
+    }
+    .dream{
+        display: flex;
+    }
+.nav-item-container{
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: -120px;
+}
+    .input-field{
+        flex-direction: column;
+        margin-top: -90px;
+        margin-bottom: 10px;
+    }
+    .item-container {
+        flex-direction: column;
+    }
+
+    .E-content{
+        margin-top: 30px;
+        margin-bottom: 0px;
+        font-size: 0.28rem;
+    }
+   .input-content{
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+   }
+   .E {
+   width: 70%;
+   padding: 0%;
+   margin-bottom:5px ;
+   margin-left: 55px;
+}
+.E p{
+    display: contents;
+    font-size: 0.25rem;
+   
+    
+}
+
+/* popular tour */
+
+.tours-content{
+    width: 60%;
+    text-align: left;
+  
+
+}
+.tours-img-container img{
+ margin-top: 10px;
+width: 70%;
+margin-left: 70px;
+}
+
+
+
+    .tours-tittle {
+        font-size: 25px;
+    }
+
+    .tours-container li {
+        width: 80%;
+        padding: 10px 0px;
+    }
+
+    .tours-description{
+        width: 304px;
+        font-family: 'Mulish';
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    .tours-container{
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+/* my extra part start */
+    .room-container{
+        flex-direction: column-reverse;
+       align-items: center;
+    }
+
+
+/* destination choose */
+.choose-your-destination-tittle h3{
+    text-align: center;
+    /* font-size: large; */
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    
+     .choose-img-container-1,.choose-img-container-2,.choose-img-container-3{
+        justify-content: center;
+    
+        flex-direction: column;
+        gap: 8px;
+        align-items: center;
+        margin-left: -50px;
+     }
+
+   
+
+
+
+    /* choose us */
+
+   
+.choose-us{
+    width: 70%;
+    justify-content: center;
+    /* padding-left: 10px; */
+        /* padding-right: 10px; */
+        /* margin-left: 50px;
+        margin-right: -50px; */
+}
+.why-choose-us{
+     margin-top: 1700px; 
+   
+}
+.choose-us-cart-container-1, .choose-us-cart-container-2{
+   font-size: 8px;
+     flex-direction:column ;
+     /* margin-bottom: -200px;   */
+   
+}
+.choose-us-cart-container-1{
+    margin-left: -150px;
+}
+.cart1, .cart2 {
+   /* padding-left: 100px; */
+    /* margin-left: -2px;  */
+    width: 450px;
+    height: 200px;
+    
+}
+.cart3{
+    width: 450px;
+    height: 200px;
+     margin-left: -200px; 
+}
+
+    /* newsettler */
+/
+
+
+
+/* newsletter */
+.News-content{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.Newsletter-img img{
+    /* width: 120%; */
+ width: 150%;
+ align-items: center;
+ margin-left: -80px;
+margin-top: -0px;
+
+}
+.News-container{
+    flex-direction: column-reverse;
+    /* align-items: center; */
+   
+}
+.p{
+    /* width: 50%; */
+    width: 214.023px;
+height: 90.268px;
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+}
+
+/* footer */
+
+
+
+
+
+.fp{
+    padding: 0 150px;
+    font-size: 10px;
+    margin: 0 100px;
+}
+
+
+
+
+
+
+
+ }
